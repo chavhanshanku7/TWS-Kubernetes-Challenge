@@ -3,25 +3,17 @@ The repository contains comprehensive theoretical and practical knowledge about 
 
 Challene for the #KubeWeek
 
-1. Day-1 (Monday)
-   Kubernetes Architecture and Components
-   Kubernetes Installation and Configurations
+1. Day-1:- Kubernetes Architecture and Compnents
+           Kubernetes Installation and Configuration
    
-3. Day-2 (Tuesday)
-   Kubernetes Netowkring
+2. Day-2:- Kubernetes Netowkring
    
-4. Day-3 (Wednesday)
-   Kubernetes Workload (Deployments, Jobs, CronJobs, etc.)
+3. Day-3:- Kubernetes Workloads (Deployments, Jobs, CronJobs, etc.)
    
-5. Day-4 (Thursday)
-   Kubernetes Services and Service Discovery
+4. Day-4:- Kubernetes Services and Service Discovery
    
-6. Day-5 (Friday)
-   Kubernetes Stoarage
-   Kubernetes Security
+5. Day-5:- Kubernetes Storage and Security
    
-7. Day-6 (Saturday)
-    Kubernetes Cluster Maintenance
+6. Day-6:- Kubernetes Cluster Maintenance
     
-17. Day-7 (Sunday)
-    Kubernetes Troubleshooting
+7. Day-7:- Kubernetes Troubleshooting

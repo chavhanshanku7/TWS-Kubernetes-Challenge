@@ -40,7 +40,26 @@
   • **Route Controller:** For setting up routes in the underlying cloud infrastructure.<br>
   • **Service Controller:** For creating, updating and deleting cloud provider load balancers.<br>
   
-## Worker Node Components
+# Worker Node Components
+Node components run on every node, maintaining running pods and providing the Kubernetes runtime environment.
+## 1. kubelet
+  An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod. The kubelet takes a set of PodSpecs that are provided through   various mechanisms and ensures that the containers described in those PodSpecs are running and healthy. The kubelet doesn't manage containers which were not     
+  created by Kubernetes.
+
+## 2. kube-proxy
+ kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.
+ kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster. 
+ kube-proxy uses the operating system packet filtering layer if there is one and it's available. Otherwise, kube-proxy forwards the traffic itself.
+ 
+## 3. Container Runtime
+ A fundamental component that empowers Kubernetes to run containers effectively. It is responsible for managing the execution and lifecycle of containers within     the Kubernetes environment. Kubernetes supports container runtimes such as containerd, CRI-O, and any other implementation of the Kubernetes CRI (Container   
+ Runtime Interface).
+
+ # Kubectl
+ Kubectl is a command line tool used to run commands against Kubernetes clusters. It does this by authenticating with the Master Node of your cluster and making 
+ API calls to do a variety of management actions.
+
+
 
 
 

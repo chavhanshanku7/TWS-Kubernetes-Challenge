@@ -7,20 +7,20 @@ Challene for the #KubeWeek
    Kubernetes Architecture and Components
    Kubernetes Installation and Configurations
    
-2. Day-2 (Tuesday)
+3. Day-2 (Tuesday)
    Kubernetes Netowkring
    
-3. Day-3 (Wednesday)
+4. Day-3 (Wednesday)
    Kubernetes Workload (Deployments, Jobs, CronJobs, etc.)
    
-4. Day-4 (Thursday)
+5. Day-4 (Thursday)
    Kubernetes Services and Service Discovery
    
-5. Day-5 (Friday)
+6. Day-5 (Friday)
    Kubernetes Stoarage
    Kubernetes Security
    
-6. Day-6 (Saturday)
+7. Day-6 (Saturday)
     Kubernetes Cluster Maintenance
     
 17. Day-7 (Sunday)

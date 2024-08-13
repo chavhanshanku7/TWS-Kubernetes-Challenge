@@ -3,8 +3,8 @@ The repository contains comprehensive theoretical and practical knowledge about 
 
 Challene for the #KubeWeek
 
-1. Day-1:- Kubernetes Architecture and Compnents
-           Kubernetes Installation and Configuration
+1. Day-1:- [Kubernetes Architecture and Compnents](https://github.com/chavhanshanku7/TWS-Kubernetes-Challenge/blob/main/kubernetes_architecture_and_components.md)
+           [Kubernetes Installation and Configuration](https://github.com/chavhanshanku7/TWS-Kubernetes-Challenge/blob/main/kubernetes_installation_and_configuration.md)
    
 2. Day-2:- Kubernetes Netowkring
    

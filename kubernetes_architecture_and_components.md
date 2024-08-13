@@ -22,10 +22,10 @@
 
   There are many different types of controllers. Some examples of them are:
 
-  • **Node Controller:** Responsible for noticing and responding when nodes go down.
-  • **Job Controller:** Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
-  • **EndPointSlice Controller:** Populates EndpointSlice objects (to provide a link between Services and Pods).
-  • **ServiceAccountController:** Create default ServiceAccounts for new namespaces.
+  • **Node Controller:** Responsible for noticing and responding when nodes go down.<br>
+  • **Job Controller:** Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.<br>
+  • **EndPointSlice Controller:** Populates EndpointSlice objects (to provide a link between Services and Pods).<br>
+  • **ServiceAccountController:** Create default ServiceAccounts for new namespaces.<br>
 
 **<u>Cloud Controller Manager:-</u>**
   A Kubernetes control plane component that embeds cloud-specific control logic. The cloud controller manager lets you link your cluster into your cloud provider's   API, and separates out the components that interact with that cloud platform from components that only interact with your cluster.
@@ -36,9 +36,9 @@
 
   The following controllers can have cloud provider dependencies:
 
-  • **Node Controller:** For checking the cloud provider to determine if a node has been deleted in the cloud after it stops responding
-  • **Route Controller:** For setting up routes in the underlying cloud infrastructure
-  • **Service Controller:** For creating, updating and deleting cloud provider load balancers
+  • **Node Controller:** For checking the cloud provider to determine if a node has been deleted in the cloud after it stops responding.<br>
+  • **Route Controller:** For setting up routes in the underlying cloud infrastructure.<br>
+  • **Service Controller:** For creating, updating and deleting cloud provider load balancers.<br>
   
 ## Worker Node Components
 
